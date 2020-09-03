@@ -3,6 +3,16 @@
 
 Chrome extension to track scrolling activity in Chrome over time, and keeping an up to date total of how many miles on every website ever.
 
+## Project Information
+
+Feel free to create a PR and I'll check and merge it. Use this format:
+
+1. Create a branch that describes the work in 2-3 words. e.g. initial-commit, user-dpi, scroll-debounce.
+2. Each commit message should take the format `branch-name - Reads in the imperative mood.`
+ 1. Note the space around the dash
+ 2. More imperative mood verb tense is `Adds local storage call to extension` and `Updates node packages for entire app`
+3. Add a description, concerns and things you think the PR viewer should know in the PR description body.
+
 ## Tasks/Stories
 
 ### MVP:
