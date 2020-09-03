@@ -1,0 +1,33 @@
+{
+    "name": "Miles Scolled",
+    "version": "1.0",
+    "description": "How many miles have you scrolled?",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "options_page": "options.html",
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/scrolled16.png",
+            "32": "images/scrolled32.png",
+            "48": "images/scrolled48.png",
+            "128": "images/scrolled128.png"
+        }
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["calculateScroll.js"]
+        }
+    ],
+    "icons": {
+        "16": "images/scrolled16.png",
+        "32": "images/scrolled32.png",
+        "48": "images/scrolled48.png",
+        "128": "images/scrolled128.png"
+    },
+    "manifest_version": 2
+  }
