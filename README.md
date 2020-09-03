@@ -28,7 +28,7 @@ Chrome extension to track scrolling activity in Chrome over time, and keeping an
 
 #### 3. Create function in extension to update localstorage either on tab change, tab focus change or tab/window close or direction change.
 
-### Edge Cases:
+##### Edge Cases:
 
 * User quitting chrome in different ways:  Computer crash, force quit, normal quit, tab close, chrome window close.
 What does each one mean in terms of keeping an accurate pixels scrolled total?
