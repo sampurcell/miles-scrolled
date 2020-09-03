@@ -1,5 +1,5 @@
 # miles-scrolled
-============= Scrolling in the deep
+> *Scrolling in the deep*
 
 Chrome extension to track scrolling activity in Chrome over time, and keeping an up to date total of how many miles on every website ever.
 
