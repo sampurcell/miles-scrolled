@@ -46,4 +46,3 @@ What does each one mean in terms of keeping an accurate pixels scrolled total?
     * Filter or breakdown total by website.
     * Give user ability to see distance per chrome session
 * After doing user testing on the MVP, what other features would be cool
- *
